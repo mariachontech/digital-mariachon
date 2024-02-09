@@ -6,6 +6,9 @@ const nextConfig = {
         protocol: "http",
         hostname: "localhost",
       },
+      {
+        hostname: "digital-mariachon-production.up.railway.app",
+      },
     ],
   },
 };

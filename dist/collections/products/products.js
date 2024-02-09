@@ -65,6 +65,7 @@ var addUser = function (_a) {
         var user;
         return __generator(this, function (_b) {
             user = req.user;
+            //
             return [2 /*return*/, __assign(__assign({}, data), { user: user.id })];
         });
     });
